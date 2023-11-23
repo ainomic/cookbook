@@ -4,7 +4,9 @@ Different projects which are built to showcase about technology like LLMs, RAG, 
 
 ## 🚀 Projects
 
-1. [Chat w/ data](chainlit-pdf-qa/README.md)
+Serial # | Name | Description | Tools
+--- | --- | --- | ---
+1 | [Chat w/ data](chainlit-pdf-qa/README.md) | Chat with your data (PDF, Txt, etc.) | `Langchain` `Pinecone` `Chainlit` `OpenAI`
 
 ## 💁 Contributing
 
