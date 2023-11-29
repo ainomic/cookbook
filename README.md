@@ -7,6 +7,8 @@ Different projects which are built to showcase about technology like LLMs, RAG, 
 Serial # | Name | Description | Tools
 --- | --- | --- | ---
 1 | [Chat w/ data](chainlit-pdf-qa/README.md) | Chat with your data (PDF, Txt, etc.) | `Langchain` `Pinecone` `Chainlit` `OpenAI`
+1 | [Web to PDF](web-to-pdf/README.md) | Website to PDF file | `pdfkit` `wkhtmltopdf`
+1 | [Web Research agent](web-researcher-agent/README.md) | Research through internet to answer queries | `Langchain` `ChromaDB` `Streamlit` `OpenAI` `Google Search API` `BeautifulSoup`
 
 ## 💁 Contributing
 
