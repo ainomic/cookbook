@@ -1,0 +1,11 @@
+# Python=3.10
+python-dotenv
+langchain
+huggingface_hub
+sentence-transformers
+PyPDF2
+chainlit
+cohere
+qdrant-client
+rank_bm25
+llama-cpp-python
