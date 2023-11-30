@@ -1,0 +1,7 @@
+# Python=3.10
+python-dotenv
+streamlit
+langchain
+pypdf
+openai
+tiktoken
