@@ -1,3 +1,5 @@
+from datetime import datetime
+import os
 import streamlit as st
 from dotenv import load_dotenv
 from utils import save_uploaded_file, process_uploaded_file, generate
@@ -21,3 +23,8 @@ if st.sidebar.button("Generate blog", type="primary", use_container_width=True):
         res = generate(docs)
         st.sidebar.success("Blog generated successfully")
     st.write(res)
+    os.makedirs("outputs", exist_ok=True)
+    out_path = f"outputs/{datetime.now():%Y-%m-%d-%H-%M-%S}.md"
+    with open(out_path, "w") as w:
+        w.write(res)
+    print(f"Output file at {out_path}")
